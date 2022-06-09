@@ -8,9 +8,13 @@ const Home = () => {
   return (
     <div>
       <p>这是Home页面</p>
-
+      <p>a</p>
+      <p>b</p>
+      <p>c</p>
       <ReactToPrint trigger={() => <Button>打印</Button>} content={() => ref.current} />
-      <div className='ceshi' ref={ref}>这是测试的打印</div>
+      <div className='ceshi' ref={ref}>
+        这是测试的打印
+      </div>
     </div>
   );
 };
