@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 .App {
   text-align: center;
 }
@@ -35,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.ceshi{
+  display: none;
+}
+@media print{
+  .ceshi{
+display: block;
+  }
+ 
 }
